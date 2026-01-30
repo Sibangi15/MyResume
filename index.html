@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Sibangi Chakraborty</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">SIBANGI CHAKRABORTY<span style="color:var(--primary)">.</span></a>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section-padding">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="hero-subtitle">Hello, I'm a</p>
+                    <h1 class="heading-xl">Web <br> <span class="text-gradient">Developer</span></h1>
+                    <p class="hero-desc">I build immersive web experiences with modern technologies and focus on premium
+                        aesthetics.</p>
+                    <a href="#projects" class="btn">View Work</a>
+                </div>
+                <div class="hero-visual">
+                    <!-- Dynamic visual will be injected via JS or simple CSS shape -->
+                    <div class="glow-orb"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <h2 class="heading-m">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I am a passionate developer who bridges the gap between design and engineering. I love
+                            creating polished, fast, and accessible websites.</p>
+                        <br>
+                        <p>With interest in modern full-stack web development, I turn complex requirements into
+                            smooth user
+                            experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="container">
+                <h2 class="heading-m">Selected Work</h2>
+                <div class="projects-grid">
+                    <!-- Project Item 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img"></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>iNoteBook</h3>
+                            <p> A full-stack MERN note-taking web application that allows CRUD operations for users with
+                                notes stored in a cloud database.</p>
+                            <div class="tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Project Item 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img"></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Day2Day</h3>
+                            <p>A responsive News web application that dynamically
+                                fetches and displays news content by integrating with external news APIs. </p>
+                            <div class="tags">
+                                <span>React</span>
+                                <span>CSS3</span>
+                                <span>REST APIs</span>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Project Item 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="placeholder-img"></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfolio V1</h3>
+                            <p>My previous portfolio site built with pure HTML/CSS.</p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container contact-container">
+                <h2 class="heading-m">Let's Work Together</h2>
+                <p>Have a project in mind? I'm currently adding new projects to my schedule.</p>
+
+                <div class="contact-methods">
+                    <a href="mailto:sibangi@example.com" class="contact-item">
+                        <span class="label">Email</span>
+                        <span class="value">sibangichakraborty2005@gmail.com</span>
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/Sibangi15" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/sibangi-chakraborty-1162ab380?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
